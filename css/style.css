@@ -1,0 +1,105 @@
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  /* remove o sublinhado dos links */
+  color: black;
+  /* altera a cor de todos os links das páginas */
+}
+
+/*=================
+TOPO
+=================*/
+header {
+  padding: 3vw 10vw 3vw 10vw;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav h1 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0px 15px 0 15px;
+}
+
+header nav ul li.atual a {
+  color: #FB2E86;
+}
+
+section.banner {
+  background-color: #f2f0ff;
+  display: flex;
+  padding: 3vw 10vw 3vw 10vw;
+}
+
+section.banner div p.destaque {
+  color: #FB2E86;
+  font-weight: bold;
+}
+
+section.banner div h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 0 0 2vw 0;
+}
+
+section.banner div p {
+  font-size: 0.7rem;
+  color: #8a8fb9;
+  margin: 30px 10px 30px 10px;
+}
+
+section.banner div button {
+
+  background-color: #FB2E86;
+  padding: 10px 20px;
+  border-radius: 5%;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+section.banner div.imagem {
+  width: 30%;
+  margin: 0 0 0 30%;
+}
+section.produtos{
+  padding: 3vw 10vw 3vw 10vw;
+}
+section.produtos h2{
+  text-align: center;
+  font-size: 2rem;
+  color: #1a0b5b;
+  font-weight: bold;
+  margin: 3vw;
+}
+section.produtos ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section.produtos ul li{
+  width: 30%;
+}
+section.produtos ul li p{
+  background-color: #f7f7f7;
+  text-align: center;
+}
+section.produtos ul li h3{
+  color: #1a0b5b;
+  padding: 20px;
+}
