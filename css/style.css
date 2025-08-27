@@ -77,29 +77,82 @@ section.banner div.imagem {
   width: 30%;
   margin: 0 0 0 30%;
 }
-section.produtos{
+
+section.produtos {
   padding: 3vw 10vw 3vw 10vw;
 }
-section.produtos h2{
+
+section.produtos h2 {
   text-align: center;
   font-size: 2rem;
   color: #1a0b5b;
   font-weight: bold;
   margin: 3vw;
 }
-section.produtos ul{
+
+section.produtos ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-section.produtos ul li{
+
+section.produtos ul li {
   width: 30%;
 }
-section.produtos ul li p{
+
+section.produtos ul li p {
   background-color: #f7f7f7;
   text-align: center;
 }
-section.produtos ul li h3{
+
+section.produtos ul li h3 {
   color: #1a0b5b;
   padding: 20px;
 }
+
+section.convite {
+  padding: 4vw 30vw;
+  background: url(../src/images/back-section-update.png);
+  text-align: center;
+  background-position: center;
+}
+section.convite h2 {
+font-size: 2rem;
+font-weight: bold;
+color: #151875;
+margin: 2vw;
+}
+section.convite p button{
+  background: #FB2E86;
+  border-radius: 5%;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+}
+/************FOOTER*************/
+
+footer {
+  padding: 3vw 10vw;
+  display: flex;
+justify-content:space-between;
+background-color: #EEEFFB;
+} 
+footer div h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+footer p{
+  color: #8A8FB9;
+  margin: 10px;
+}
+footer h3{
+  font-size: 1.5rem;
+color: black;
+font-weight: bold;
+margin: 20px;
+}
+footer div nav ul li a{
+  color: #8A8FB9;
+  line-height: 2rem;
+}
+
